@@ -44,12 +44,9 @@ pipelines:
           - BPR_NAME="My Report" BPR_ID="myid" BPR_LEVEL="low" BPR_MAX_BUFFER_SIZE="20971520" npx bpr-npm-audit
 ```
 
-### proxy
-
-Configure by setting the environment variable `BPR_PROXY` to one of these options.
-
-* `local` - (default) Used in normal Pipelines.
-* `pipe` - Used in custom pipes.
+### Authentication
+Configure by setting the environment variable `BITBUCKET_AUTH`.
+The content will be sent as Authorization header withing the requests.
 
 ### Report Name
 

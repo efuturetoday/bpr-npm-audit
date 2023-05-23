@@ -14,6 +14,19 @@ Change categories are:
 * `Fixed` for any bug fixes.
 * `Security` to invite users to upgrade in case of vulnerabilities.
 
+## [1.5.0] - 2023-05-23
+
+### Added
+- Added support for Bitbucket Server
+- Authentication via ENV
+
+### Changed
+- moved from HTTP to HTTPS
+
+### Removed
+- Support for old audit format
+- Proxy for requests
+
 ## [1.4.3] - 2023-02-03
 
 ### Fix

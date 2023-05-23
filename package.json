@@ -1,11 +1,11 @@
 {
-  "name": "bpr-npm-audit",
-  "version": "1.4.3",
+  "name": "@efuture/bpr-npm-audit",
+  "version": "1.5.0",
   "description": "Bitbucket Pipelines report for \"npm audit\".",
   "bin": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saibotsivad/bpr-npm-audit.git"
+    "url": "git+https://github.com/efuturetoday/bpr-npm-audit.git"
   },
   "keywords": [
     "bitbucket",
@@ -22,7 +22,7 @@
   },
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
-    "url": "https://github.com/saibotsivad/bpr-npm-audit/issues"
+    "url": "https://github.com/efuturetoday/bpr-npm-audit/issues"
   },
-  "homepage": "https://github.com/saibotsivad/bpr-npm-audit#readme"
+  "homepage": "https://github.com/efuturetoday/bpr-npm-audit#readme"
 }
